@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Accueil_agent administratif"
+        android:id="@+id/textViewad"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textColor="#f435ae" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="GESTION EMPLOYE"
+        android:id="@+id/buttonGE"
+        android:layout_gravity="center_horizontal"
+        android:onClick="buttonGE"
+        android:background="#08e221"
+        android:layout_below="@+id/textViewad"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="106dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Accueil employe"
+        android:id="@+id/buttonVL"
+        android:layout_gravity="center_horizontal"
+        android:background="#dafb419e"
+        android:onClick="buttonVL"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="SE DECONNECTER"
+        android:id="@+id/buttonD4"
+        android:layout_gravity="center_horizontal"
+        android:background="#9a5e9c"
+        android:onClick="buttonD4"
+        android:layout_marginTop="58dp"
+        android:layout_below="@+id/buttonVL"
+        android:layout_alignLeft="@+id/buttonVL"
+        android:layout_alignStart="@+id/buttonVL" />
+
+
+</RelativeLayout>

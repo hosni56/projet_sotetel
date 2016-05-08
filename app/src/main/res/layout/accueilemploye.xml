@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Accueil_employe"
+        android:id="@+id/textViewemp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textColor="#f435ae" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="VOIR LIST PROJET"
+        android:id="@+id/buttonLP"
+        android:layout_gravity="center_horizontal"
+        android:background="#f7fc60"
+        android:onClick="buttonLP"
+        android:layout_below="@+id/textViewemp"
+        android:layout_alignLeft="@+id/buttonLO"
+        android:layout_alignStart="@+id/buttonLO" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="VOIR LIST OPERATION"
+        android:id="@+id/buttonLO"
+        android:layout_gravity="center_horizontal"
+        android:background="#f7fc60"
+        android:layout_marginTop="42dp"
+        android:onClick="buttonLO"
+        android:layout_below="@+id/buttonLP"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="VOIR LIST ACTIVITE"
+        android:id="@+id/buttonLA"
+        android:layout_gravity="center_horizontal"
+        android:background="#f7fc60"
+        android:layout_marginTop="48dp"
+        android:layout_below="@+id/buttonLO"
+        android:layout_alignLeft="@+id/buttonLO"
+        android:layout_alignStart="@+id/buttonLO"
+        android:onClick="buttonLA" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="VOIR LIST TACHE"
+        android:id="@+id/buttonLT"
+        android:layout_gravity="center_horizontal"
+        android:background="#f7fc60"
+        android:layout_marginTop="46dp"
+        android:layout_below="@+id/buttonLA"
+        android:layout_alignLeft="@+id/buttonLA"
+        android:layout_alignStart="@+id/buttonLA"
+        android:onClick="buttonLT" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="SE DECONNECTER"
+        android:id="@+id/buttonD1"
+        android:layout_gravity="center_horizontal"
+        android:background="#9a5e9c"
+        android:onClick="buttonD1"
+        android:layout_below="@+id/buttonLT"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp" />
+
+
+
+
+
+</RelativeLayout>
